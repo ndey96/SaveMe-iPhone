@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B42A790F3CEE369F867C154EB83EB32 /* KAProgressLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0B6DB2C718ACDADDA926C2D77CF76 /* KAProgressLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21CD800DF2652B692FF38B6227A0CEF3 /* Pods-SaveMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF15953D9B9BFCE3FCE8A70E2A2D837E /* Pods-SaveMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F42CF608D8B777BAD5A5BD09C14D692 /* KAProgressLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AD9D3C923AC8C62D753F514355BD31 /* KAProgressLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D9EEAA379E165A571907CD7E51A51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		9A2DCCCEBAE7583F8DBFFF24B4CD179B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		9FD3254DCF5CB862FA5C2F4C6835E22D /* TPPropertyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FA98DE1C66DEBA8F9EBE417FD53B1B /* TPPropertyAnimation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7747853A1DC26334A3F385B47B03ED0 /* TPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DA321BE535C862840BEC337049B0EF /* TPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0CA5CBBD74D684022E76494AA02C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		C0D2C92C37ADF910CF1290D2CBF6E5C3 /* KAProgressLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAED2516DEB48A44474D085BEE9B41D /* KAProgressLabel-dummy.m */; };
+		D0DB75371140441207F344A38C55904F /* KAProgressLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437BDCD477C1765F501C0D1E12646BD /* KAProgressLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F441C5D20E32364165CFACC961DB0FF2 /* Pods-SaveMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4AE4F370EAC00D664520C90DA667BE /* Pods-SaveMe-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DD815E4996FFB025928F53674BBFF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF4E532BED14D03A59C796EA3F7D84B;
+			remoteInfo = KAProgressLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32922370887229F678B3C65DE8A3BE14 /* KAProgressLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KAProgressLabel.modulemap; sourceTree = "<group>"; };
+		4255E145939FA75EB161B8D7A19B34C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4454A4FDC80BE2429FCAED033F8952 /* Pods-SaveMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SaveMe.modulemap"; sourceTree = "<group>"; };
+		5999471ED2A6149D01F7D063BCC5289D /* Pods-SaveMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveMe.debug.xcconfig"; sourceTree = "<group>"; };
+		6E9A330D511632936C6144ABBBFD1F90 /* Pods-SaveMe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveMe-frameworks.sh"; sourceTree = "<group>"; };
+		73FA98DE1C66DEBA8F9EBE417FD53B1B /* TPPropertyAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPPropertyAnimation.m; path = KAProgressLabel/TPPropertyAnimation.m; sourceTree = "<group>"; };
+		74DA321BE535C862840BEC337049B0EF /* TPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPPropertyAnimation.h; path = KAProgressLabel/TPPropertyAnimation.h; sourceTree = "<group>"; };
+		759F4ADC5E1A178A2F980E82D9B1DA69 /* Pods_SaveMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaveMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2A27E9639484D7AFB0257D4F859AE1 /* KAProgressLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KAProgressLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8437BDCD477C1765F501C0D1E12646BD /* KAProgressLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KAProgressLabel.h; path = KAProgressLabel/KAProgressLabel.h; sourceTree = "<group>"; };
+		87AD9D3C923AC8C62D753F514355BD31 /* KAProgressLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KAProgressLabel-umbrella.h"; sourceTree = "<group>"; };
+		8C387F02C276A49875625EDE85BE3DDA /* Pods-SaveMe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SaveMe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9201C3AE019D3A6BAA623FFFA363570C /* Pods-SaveMe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SaveMe-resources.sh"; sourceTree = "<group>"; };
+		AF4F5DF5160A79969C6652FC4FFCC465 /* Pods-SaveMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SaveMe.release.xcconfig"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B568E4CBC7C8D6AAAF7A4035BCC064A2 /* KAProgressLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KAProgressLabel.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFAED2516DEB48A44474D085BEE9B41D /* KAProgressLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KAProgressLabel-dummy.m"; sourceTree = "<group>"; };
+		CF15953D9B9BFCE3FCE8A70E2A2D837E /* Pods-SaveMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SaveMe-umbrella.h"; sourceTree = "<group>"; };
+		D02B5C17772C7EDD4C70C8EBA5894A23 /* KAProgressLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KAProgressLabel-prefix.pch"; sourceTree = "<group>"; };
+		DC4AE4F370EAC00D664520C90DA667BE /* Pods-SaveMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SaveMe-dummy.m"; sourceTree = "<group>"; };
+		E65DFAF613AD140628A6D76C29BD3E05 /* Pods-SaveMe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SaveMe-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEC0B6DB2C718ACDADDA926C2D77CF76 /* KAProgressLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KAProgressLabel.m; path = KAProgressLabel/KAProgressLabel.m; sourceTree = "<group>"; };
+		FF1FA42E457E50073DD327BC65137E34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A28DA74EAEC1F526ADB374947A2BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0CA5CBBD74D684022E76494AA02C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F916AA9361D33512C0E09A6CD9AA12B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D9EEAA379E165A571907CD7E51A51F /* Foundation.framework in Frameworks */,
+				9A2DCCCEBAE7583F8DBFFF24B4CD179B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6946D908F18140A9EB43BC17204326AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3C8373926CC321447363B6406FD0ED /* KAProgressLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EA166240A7AC487387BFBC604614BB4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E96B9F48C84C0CB7495BBE139769EA /* Pods-SaveMe */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6946D908F18140A9EB43BC17204326AE /* Pods */,
+				92F427489EF07029FF1A21B8B22F12A7 /* Products */,
+				6EA166240A7AC487387BFBC604614BB4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84E96B9F48C84C0CB7495BBE139769EA /* Pods-SaveMe */ = {
+			isa = PBXGroup;
+			children = (
+				FF1FA42E457E50073DD327BC65137E34 /* Info.plist */,
+				4B4454A4FDC80BE2429FCAED033F8952 /* Pods-SaveMe.modulemap */,
+				8C387F02C276A49875625EDE85BE3DDA /* Pods-SaveMe-acknowledgements.markdown */,
+				E65DFAF613AD140628A6D76C29BD3E05 /* Pods-SaveMe-acknowledgements.plist */,
+				DC4AE4F370EAC00D664520C90DA667BE /* Pods-SaveMe-dummy.m */,
+				6E9A330D511632936C6144ABBBFD1F90 /* Pods-SaveMe-frameworks.sh */,
+				9201C3AE019D3A6BAA623FFFA363570C /* Pods-SaveMe-resources.sh */,
+				CF15953D9B9BFCE3FCE8A70E2A2D837E /* Pods-SaveMe-umbrella.h */,
+				5999471ED2A6149D01F7D063BCC5289D /* Pods-SaveMe.debug.xcconfig */,
+				AF4F5DF5160A79969C6652FC4FFCC465 /* Pods-SaveMe.release.xcconfig */,
+			);
+			name = "Pods-SaveMe";
+			path = "Target Support Files/Pods-SaveMe";
+			sourceTree = "<group>";
+		};
+		92F427489EF07029FF1A21B8B22F12A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2A27E9639484D7AFB0257D4F859AE1 /* KAProgressLabel.framework */,
+				759F4ADC5E1A178A2F980E82D9B1DA69 /* Pods_SaveMe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3C8373926CC321447363B6406FD0ED /* KAProgressLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8437BDCD477C1765F501C0D1E12646BD /* KAProgressLabel.h */,
+				FEC0B6DB2C718ACDADDA926C2D77CF76 /* KAProgressLabel.m */,
+				74DA321BE535C862840BEC337049B0EF /* TPPropertyAnimation.h */,
+				73FA98DE1C66DEBA8F9EBE417FD53B1B /* TPPropertyAnimation.m */,
+				F6DDD0EDE62D5A94539F54E5E26B3F70 /* Support Files */,
+			);
+			path = KAProgressLabel;
+			sourceTree = "<group>";
+		};
+		F6DDD0EDE62D5A94539F54E5E26B3F70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4255E145939FA75EB161B8D7A19B34C8 /* Info.plist */,
+				32922370887229F678B3C65DE8A3BE14 /* KAProgressLabel.modulemap */,
+				B568E4CBC7C8D6AAAF7A4035BCC064A2 /* KAProgressLabel.xcconfig */,
+				BFAED2516DEB48A44474D085BEE9B41D /* KAProgressLabel-dummy.m */,
+				D02B5C17772C7EDD4C70C8EBA5894A23 /* KAProgressLabel-prefix.pch */,
+				87AD9D3C923AC8C62D753F514355BD31 /* KAProgressLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KAProgressLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		566373354017ACF77A3BD02F393ADF90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CD800DF2652B692FF38B6227A0CEF3 /* Pods-SaveMe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774FD3AEE321F86C487D805FBA944280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F42CF608D8B777BAD5A5BD09C14D692 /* KAProgressLabel-umbrella.h in Headers */,
+				D0DB75371140441207F344A38C55904F /* KAProgressLabel.h in Headers */,
+				B7747853A1DC26334A3F385B47B03ED0 /* TPPropertyAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B95EB913879DA53175A4F3D4329AF112 /* Pods-SaveMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB481FD5735C7D01433EA9CC5EBE7C5 /* Build configuration list for PBXNativeTarget "Pods-SaveMe" */;
+			buildPhases = (
+				2B2B5C1C0130FA4EE389ECA85AFFC11B /* Sources */,
+				45A28DA74EAEC1F526ADB374947A2BD8 /* Frameworks */,
+				566373354017ACF77A3BD02F393ADF90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2B80B3E42081F6BF20501D218FC66B /* PBXTargetDependency */,
+			);
+			name = "Pods-SaveMe";
+			productName = "Pods-SaveMe";
+			productReference = 759F4ADC5E1A178A2F980E82D9B1DA69 /* Pods_SaveMe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEF4E532BED14D03A59C796EA3F7D84B /* KAProgressLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0953D4E338466E5B22FFA195409C7D6E /* Build configuration list for PBXNativeTarget "KAProgressLabel" */;
+			buildPhases = (
+				D0217BCA3BF7358E4CBF45A39E66D9B9 /* Sources */,
+				F916AA9361D33512C0E09A6CD9AA12B1 /* Frameworks */,
+				774FD3AEE321F86C487D805FBA944280 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAProgressLabel;
+			productName = KAProgressLabel;
+			productReference = 7F2A27E9639484D7AFB0257D4F859AE1 /* KAProgressLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 92F427489EF07029FF1A21B8B22F12A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF4E532BED14D03A59C796EA3F7D84B /* KAProgressLabel */,
+				B95EB913879DA53175A4F3D4329AF112 /* Pods-SaveMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2B5C1C0130FA4EE389ECA85AFFC11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F441C5D20E32364165CFACC961DB0FF2 /* Pods-SaveMe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0217BCA3BF7358E4CBF45A39E66D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D2C92C37ADF910CF1290D2CBF6E5C3 /* KAProgressLabel-dummy.m in Sources */,
+				0B42A790F3CEE369F867C154EB83EB32 /* KAProgressLabel.m in Sources */,
+				9FD3254DCF5CB862FA5C2F4C6835E22D /* TPPropertyAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2B80B3E42081F6BF20501D218FC66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KAProgressLabel;
+			target = BEF4E532BED14D03A59C796EA3F7D84B /* KAProgressLabel */;
+			targetProxy = 68DD815E4996FFB025928F53674BBFF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D72B2159AF5EDB9CDDA6302A9E8EA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B568E4CBC7C8D6AAAF7A4035BCC064A2 /* KAProgressLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KAProgressLabel/KAProgressLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KAProgressLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KAProgressLabel/KAProgressLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KAProgressLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3233D9163A1C7764F173E17F641925E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4F5DF5160A79969C6652FC4FFCC465 /* Pods-SaveMe.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SaveMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SaveMe/Pods-SaveMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SaveMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8543BAE1751F08C506E16A0EEE2B0BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5999471ED2A6149D01F7D063BCC5289D /* Pods-SaveMe.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SaveMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SaveMe/Pods-SaveMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SaveMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D76ECE0CEA921A124F940EEE62FF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B568E4CBC7C8D6AAAF7A4035BCC064A2 /* KAProgressLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KAProgressLabel/KAProgressLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KAProgressLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KAProgressLabel/KAProgressLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KAProgressLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0953D4E338466E5B22FFA195409C7D6E /* Build configuration list for PBXNativeTarget "KAProgressLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D76ECE0CEA921A124F940EEE62FF83 /* Debug */,
+				1D72B2159AF5EDB9CDDA6302A9E8EA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB481FD5735C7D01433EA9CC5EBE7C5 /* Build configuration list for PBXNativeTarget "Pods-SaveMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8543BAE1751F08C506E16A0EEE2B0BF9 /* Debug */,
+				3233D9163A1C7764F173E17F641925E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

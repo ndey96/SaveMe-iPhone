@@ -1,0 +1,10 @@
+PODS:
+  - KAProgressLabel (3.2)
+
+DEPENDENCIES:
+  - KAProgressLabel (~> 3.2)
+
+SPEC CHECKSUMS:
+  KAProgressLabel: 4362a1d37c5a7bc7c10cd059fd2da7cb9599cb50
+
+COCOAPODS: 0.39.0

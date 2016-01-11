@@ -195,6 +195,7 @@
     animation.duration = duration;
     animation.startDelay = delay;
     animation.timing = timing;
+    animation.delegate = self;
     [animation beginWithTarget:self];
     
     _currentAnimation = animation;
@@ -208,6 +209,7 @@
     animation.duration = duration;
     animation.startDelay = delay;
     animation.timing = timing;
+    animation.delegate = self;
     [animation beginWithTarget:self];
     
     _currentAnimation = animation;
@@ -368,7 +370,9 @@
 }
 
 - (void)propertyAnimationDidFinish:(TPPropertyAnimation *)propertyAnimation {
-    
+    if ([self.delegate respondsToSelector:@selector(progressBarDidFinishAnimating)]) {
+        [self.delegate progressBarDidFinishAnimating];
+    }
 }
 
 @end

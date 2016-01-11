@@ -11,9 +11,17 @@
 @class KAProgressLabel;
 typedef void(^labelValueChangedCompletion)(KAProgressLabel *label);
 
+@protocol KAProgressLabelDelegate <NSObject>
+
+- (void)progressBarDidFinishAnimating;
+
+@end
+
 @interface KAProgressLabel : UILabel
 
 @property (nonatomic, copy) labelValueChangedCompletion labelVCBlock;
+
+@property (nonatomic, weak) id<KAProgressLabelDelegate> delegate;
 
 // Style
 @property (nonatomic) CGFloat trackWidth; 

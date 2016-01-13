@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Hex.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KAProgressLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B95EB913879DA53175A4F3D4329AF112</key>
+		<key>3B7A1E2D86A96B4E50F99343232C1637</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BEF4E532BED14D03A59C796EA3F7D84B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C560DD0F5594CFAEB031A049BB5981B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

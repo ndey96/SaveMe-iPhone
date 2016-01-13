@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-SaveMe/Hex.framework"
   install_framework "Pods-SaveMe/KAProgressLabel.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-SaveMe/Hex.framework"
   install_framework "Pods-SaveMe/KAProgressLabel.framework"
 fi

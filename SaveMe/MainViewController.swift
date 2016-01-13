@@ -10,7 +10,7 @@ import UIKit
 import KAProgressLabel
 import Hex
 
-class MainViewController: UIViewController, KAProgressLabelDelegate {
+class MainViewController: UIViewController, UIApplicationDelegate, KAProgressLabelDelegate {
 
     let HelpButtonSize : CGFloat = 224
     let LabelFontSize : CGFloat = 48
@@ -22,14 +22,26 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     var helpButtonLabel : UILabel!
     var callManager : CallManager!
     var progressBar : KAProgressLabel!
+    var didLayoutViews : Bool
     
     required init?(coder aDecoder: NSCoder) {
+        didLayoutViews = false
         super.init(coder: aDecoder)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.callManager = CallManager()
+        self.layoutViews()
+    }
+    
+    func applicationDidBecomeActive(application: UIApplication) {
+        self.resetHelpButton()
+    }
+    
+    func layoutViews()
+    {
+        didLayoutViews = true
         
         let frameWidth = CGRectGetWidth(self.view.frame)
         let frameHeight = CGRectGetHeight(self.view.frame)
@@ -75,18 +87,36 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     {
         self.view.addSubview(progressBar)
         progressBar.setProgress(1, timing: TPPropertyAnimationTimingEaseOut, duration:2.5, delay: 0.0)
-        helpButtonLabel.text = "Cancel"
     }
     
     func hideProgressBar() {
         progressBar.removeFromSuperview()
+        progressBar.startDegree = 0
+        progressBar.endDegree = 0
         progressBar.progress = 0
     }
     
     func callTapped(sender : UIButton!) {
         self.showProgressBar()
+        helpButton.removeTarget(self, action: "callTapped:", forControlEvents: UIControlEvents.TouchUpInside)
+        helpButton.addTarget(self, action: "cancelTapped:", forControlEvents: UIControlEvents.TouchUpInside)
+        helpButtonLabel.text = "Cancel"
     }
 
+    func cancelTapped(sender : UIButton!) {
+        helpButton.removeTarget(self, action: "cancelTapped:", forControlEvents: UIControlEvents.TouchUpInside)
+        helpButton.addTarget(self, action: "callTapped:", forControlEvents: UIControlEvents.TouchUpInside)
+        progressBar.stopAnimations()
+        self.hideProgressBar()
+        self.resetHelpButton()
+    }
+    
+    func resetHelpButton() {
+        helpButton.backgroundColor = UIColor(hex: "f25555")
+        helpButtonLabel.text = "Call 911"
+        helpButton.userInteractionEnabled = true
+    }
+    
     func progressBarDidFinishAnimating() {
         self.hideProgressBar()
         self.helpButton.userInteractionEnabled = false

@@ -25,12 +25,20 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     var didLayoutViews : Bool
     
     required init?(coder aDecoder: NSCoder) {
-        didLayoutViews = false
+        self.didLayoutViews = false
         super.init(coder: aDecoder)
     }
     
+    init () {
+        self.didLayoutViews = false
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: nil, action: nil)
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: nil, action: nil)
         self.callManager = CallManager()
         self.layoutViews()
     }
@@ -38,6 +46,8 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     func layoutViews()
     {
         didLayoutViews = true
+        
+        self.view.backgroundColor = UIColor.whiteColor()
         
         let frameWidth = CGRectGetWidth(self.view.frame)
         let frameHeight = CGRectGetHeight(self.view.frame)

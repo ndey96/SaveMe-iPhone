@@ -10,12 +10,12 @@ import UIKit
 import KAProgressLabel
 import Hex
 
-class MainViewController: UIViewController, UIApplicationDelegate, KAProgressLabelDelegate {
+class MainViewController: UIViewController, KAProgressLabelDelegate {
 
     let HelpButtonSize : CGFloat = 224
     let LabelFontSize : CGFloat = 48
     let ProgressBarWidth : CGFloat = 18
-    let ProgressBarRadius : CGFloat = 225
+    let ProgressBarRadius : CGFloat = 225.5
     let ProgressBarDuration : CGFloat = 2.5
 
     var helpButton : UIButton!
@@ -33,10 +33,6 @@ class MainViewController: UIViewController, UIApplicationDelegate, KAProgressLab
         super.viewDidLoad()
         self.callManager = CallManager()
         self.layoutViews()
-    }
-    
-    func applicationDidBecomeActive(application: UIApplication) {
-        self.resetHelpButton()
     }
     
     func layoutViews()

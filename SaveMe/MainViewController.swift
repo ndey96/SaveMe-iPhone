@@ -91,8 +91,6 @@ class MainViewController: UIViewController, UIApplicationDelegate, KAProgressLab
     
     func hideProgressBar() {
         progressBar.removeFromSuperview()
-        progressBar.startDegree = 0
-        progressBar.endDegree = 0
         progressBar.progress = 0
     }
     

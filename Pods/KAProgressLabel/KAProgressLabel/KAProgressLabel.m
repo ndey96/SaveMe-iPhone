@@ -229,24 +229,24 @@
 
 #pragma mark - Touch Interaction
 
-// Limit touch to actual disc surface
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
-{
-    UIBezierPath *p = [UIBezierPath bezierPathWithOvalInRect:self.bounds];
-    return  ([p containsPoint:point])? self : nil;
-}
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [super touchesBegan:touches withEvent:event];
-    [self moveBasedOnTouches:touches withEvent:event];
-}
-
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [super touchesMoved:touches withEvent:event];
-    [self moveBasedOnTouches:touches withEvent:event];
-}
+//// Limit touch to actual disc surface
+//- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
+//{
+//    UIBezierPath *p = [UIBezierPath bezierPathWithOvalInRect:self.bounds];
+//    return  ([p containsPoint:point])? self : nil;
+//}
+//
+//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+//{
+//    [super touchesBegan:touches withEvent:event];
+//    [self moveBasedOnTouches:touches withEvent:event];
+//}
+//
+//- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+//{
+//    [super touchesMoved:touches withEvent:event];
+//    [self moveBasedOnTouches:touches withEvent:event];
+//}
 
 - (void)moveBasedOnTouches:(NSSet *)touches withEvent:(UIEvent *)event
 {

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AB43FDCD684F2EBA818AA4E7'
+               BlueprintIdentifier = '870DB394A39562B0AC96E829'
                BlueprintName = 'KAProgressLabel'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'KAProgressLabel.framework'>

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Hex.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +27,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3B7A1E2D86A96B4E50F99343232C1637</key>
+		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>C560DD0F5594CFAEB031A049BB5981B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE2DA5E62CB334F6354F58BC17510CCD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

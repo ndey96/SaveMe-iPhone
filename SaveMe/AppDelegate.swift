@@ -21,9 +21,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         return true
     }
-    
-    func applicationDidBecomeActive(application: UIApplication) {
-        print("YISS")
-    }
 }
 

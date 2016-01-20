@@ -12,6 +12,7 @@
 		F709350B1C41A0A100E38033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F709350A1C41A0A100E38033 /* Assets.xcassets */; };
 		F709350E1C41A0A100E38033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F709350C1C41A0A100E38033 /* LaunchScreen.storyboard */; };
 		F70935161C41A24700E38033 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70935151C41A24700E38033 /* MainViewController.swift */; };
+		F74AC1511C4F5D5C001270AB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74AC1501C4F5D5C001270AB /* ProfileViewController.swift */; };
 		F77D34F41C41CDA2001E86C0 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D34F31C41CDA2001E86C0 /* CallManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		F709350D1C41A0A100E38033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F709350F1C41A0A100E38033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70935151C41A24700E38033 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F74AC1501C4F5D5C001270AB /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F77D34F31C41CDA2001E86C0 /* CallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 			children = (
 				F70935031C41A0A100E38033 /* AppDelegate.swift */,
 				F70935151C41A24700E38033 /* MainViewController.swift */,
+				F74AC1501C4F5D5C001270AB /* ProfileViewController.swift */,
 				F77D34F31C41CDA2001E86C0 /* CallManager.swift */,
 				F709350A1C41A0A100E38033 /* Assets.xcassets */,
 				F709350C1C41A0A100E38033 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			files = (
 				F77D34F41C41CDA2001E86C0 /* CallManager.swift in Sources */,
 				F70935161C41A24700E38033 /* MainViewController.swift in Sources */,
+				F74AC1511C4F5D5C001270AB /* ProfileViewController.swift in Sources */,
 				F70935041C41A0A100E38033 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

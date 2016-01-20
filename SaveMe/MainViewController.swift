@@ -128,7 +128,7 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     }
     
     func profileTapped(sender : UIBarButtonItem!) {
-        print("WOW OMG SO COOL")
+        self.navigationController?.pushViewController(ProfileViewController(), animated: true)
     }
     
 }

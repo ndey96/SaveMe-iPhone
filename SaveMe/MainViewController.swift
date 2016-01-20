@@ -37,16 +37,15 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: nil, action: nil)
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: nil, action: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "resetHelpButton", name: UIApplicationDidBecomeActiveNotification, object: nil)
         self.callManager = CallManager()
         self.layoutViews()
     }
     
-    func layoutViews()
-    {
+    func layoutViews() {
         didLayoutViews = true
         
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image:UIImage(named: "Contact"), style: UIBarButtonItemStyle.Plain, target: self, action: "profileTapped:")
         self.view.backgroundColor = UIColor.whiteColor()
         
         let frameWidth = CGRectGetWidth(self.view.frame)
@@ -89,8 +88,7 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
         progressBar.delegate = self
     }
 
-    func showProgressBar()
-    {
+    func showProgressBar() {
         self.view.addSubview(progressBar)
         progressBar.setProgress(1, timing: TPPropertyAnimationTimingEaseOut, duration:2.5, delay: 0.0)
     }
@@ -127,6 +125,10 @@ class MainViewController: UIViewController, KAProgressLabelDelegate {
         helpButtonLabel.text = "Dialing"
         helpButton.backgroundColor = UIColor(hex: "97c671")
         self.callManager.call911()
+    }
+    
+    func profileTapped(sender : UIBarButtonItem!) {
+        print("WOW OMG SO COOL")
     }
     
 }

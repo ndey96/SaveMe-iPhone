@@ -1,0 +1,7 @@
+use_frameworks!
+
+target 'SaveMe-iPhone’
+
+pod 'KAProgressLabel', '~> 3.3.0’
+pod 'Hex', '~> 5.0.0’
+pod 'Alamofire', '~> 4.0.1’

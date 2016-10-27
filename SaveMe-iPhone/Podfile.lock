@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Hex (5.0.0)
+  - KAProgressLabel (3.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - Hex (~> 5.0.0)
+  - KAProgressLabel (~> 3.3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Hex: 024e4dba5d5a9351e7817713f3dee61553258dcd
+  KAProgressLabel: 8ef4544b66f2d8277f8349e0b5ffbab44c95f659
+
+PODFILE CHECKSUM: e7497bcf0425052566ca30683510fead985195a2
+
+COCOAPODS: 1.1.1
